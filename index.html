@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bootstrap demo</title>
+    <!-- fonts -->
+
+    <!-- icon -->
+
+    <!-- css link -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="text/x-icon" href="images/icon.png">
+  </head>
+
+ 
+  <body>
+
+  <!-- nav start -->
+  <nav class="navbar c-bar">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white h1 brand-text pt-2" href="index.html">PRACTICE</a>
+      <div class="d-flex l-edit" role="link">
+        <a href="#" class="me-2 text-white">Nav & Tab</a>
+        <a href="pages/2.html" class="mx-2 text-white">Offcanvas</a>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+
+  <!-- main start -->
+  <div class="container mt-5">
+    <div class="border rounded p-4 ">
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="haram-tab" data-bs-toggle="pill" data-bs-target="#haram" type="button" role="tab" aria-controls="haram" aria-selected="true">Masjid Al-Haram</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="nabawi-tab" data-bs-toggle="pill" data-bs-target="#nabawi" type="button" role="tab" aria-controls="nabawi" aria-selected="false">Al-Masjid An-Nabawi</button>
+          </li>
+
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="aqsa-tab" data-bs-toggle="pill" data-bs-target="#aqsa" type="button" role="tab" aria-controls="aqsa" aria-selected="false">Al Masjid Al-Aqsa</button>
+          </li>
+
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="haram" role="tabpanel" aria-labelledby="haram-tab" tabindex="0">
+          <img src="images/msjd-haram.jpg" alt="Masjid Al-Haram" class="rounded width-100">
+          <p class="pt-2 text-secondary">The great Mosque of Mecca, Arabic al-Masjid al-Ḥarām, also called Holy Mosque or Haram Mosque, the mosque in Mecca, Saudi Arabia, was built to enclose the Kaʿbah, the holiest shrine in Islam. As one of the destinations of the hajj and ʿumrah pilgrimages, it receives millions of worshippers each year. The oldest parts of the modern structure date to the 16th century.</p>
+          </div>
+
+          <div class="tab-pane fade" id="nabawi" role="tabpanel" aria-labelledby="nabawi-tab" tabindex="0">
+          <img src="images/msjd-nabi.jpg" alt="Masjid Al-Haram" class="rounded width-100">
+          <p class="pt-2 text-secondary">Al-Masjid An-Nabawi, also called the Prophet's Mosque, is a historic mosque originally established and built by the prophet Muhammad, situated in the city of Medina. al-Masjid an-Nabawi was the second mosque built, the first being the Quba Mosque, in the history of Islam and is now one of the largest mosques in the world. </p>
+        </div>
+
+          <div class="tab-pane fade" id="aqsa" role="tabpanel" aria-labelledby="aqsa-tab" tabindex="0">
+          <img src="images/msjd-aqsa.jpg" alt="Masjid Al-Haram" class="rounded width-100">
+          <p class="pt-2 text-secondary">Al-Aqsa is one of the largest and most important mosques in the Muslim world, and the earliest in Palestine. Al-Masjid Al-Aqsa was founded forty (days or months or years) next to the Ka`bah. Historians believe that Prophet Ibrahim, peace and blessings be upon him, was the one who built or ordered Al-Aqsa to be built.</p>
+          </div>
+
+        </div>
+    </div>
+  </div>
+
+  <!-- 2nd exmple -->
+  <div class="container my-3">
+    <div class="border rounded p-4">
+
+      <div class="d-flex align-items-start">
+
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <button class="nav-link active" id="quran-tab" data-bs-toggle="pill" data-bs-target="#quran" type="button" role="tab" aria-controls="quran" aria-selected="true">Quran</button>
+          <button class="nav-link" id="tawrat-tab" data-bs-toggle="pill" data-bs-target="#tawrat" type="button" role="tab" aria-controls="tawrat" aria-selected="false">Tawrat</button>
+          <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Zabur</button>
+          <button class="nav-link" id="injil-tab" data-bs-toggle="pill" data-bs-target="#injil" type="button" role="tab" aria-controls="injil" aria-selected="false">Injil</button>
+        </div>
+
+        <div class="tab-content" id="v-pills-tabContent">
+
+          <div class="tab-pane fade show active" id="quran" role="tabpanel" aria-labelledby="quran-tab" tabindex="0">
+            <!-- headin -->
+            <h2>Al-Quran</h2>
+            <img src="images/quran.jpg" alt="quran" class="rounded width-100">
+            <!-- body -->
+            <p class="pt-2 text-secondary">
+              The Quran is the central religious text of Islam, which Muslims believe to be a revelation from Allah.The Quran is divided into chapters (surah), which are then divided into verses (ayah). Muslims believe the Quran was verbally revealed by Allah to Muhammad through the angel Gabriel (Jibril),gradually over a period of approximately 23 years, starting in late 609, when Muhammad was 39, and concluding in 632, the year of his death.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="tawrat" role="tabpanel" aria-labelledby="tawrat-tab" tabindex="0">
+            <!-- headin -->
+            <h2>Tawrat</h2>
+            <img src="images/twrah.jpg" alt="tawrat" class="rounded width-100">
+            <!-- body -->
+            <p class="pt-2 text-secondary">
+              The "Tawrat" is the Arabic name for the Torah within its context as an Islamic holy book believed by Muslims to have been given by God to the prophets and messengers amongst the Children of Israel. When referring to traditions from the Tawrat, Muslims have not only identified it with the Pentateuch but also with the other books of the Hebrew Bible as well as with Talmudic and Midrashim writings.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            <!-- headin -->
+            <h2>Zabur</h2>
+            <img src="images/zabur.jpg" alt="zabur" class="rounded width-100">
+            <!-- body -->
+            <p class="pt-2 text-secondary">
+              The Quran mentions the Zabur, interpreted as being the Book of Psalms, as being the holy scripture revealed to King David (Dawud). Scholars have often understood the Psalms to have been holy songs of praise, and not a book administering law. The current Psalms are still praised by many Muslim scholars. Quran 21:105 and Psalm 37:29 are direct counterparts.
+            </p>
+          </div>
+
+          <div class="tab-pane fade" id="injil" role="tabpanel" aria-labelledby="injil-tab" tabindex="0">
+            <!-- headin -->
+            <h2>Injil</h2>
+            <img src="images/bible.jpg" alt="Masjid Al-Haram" class="rounded width-100">
+            <!-- body -->
+            <p class="pt-2 text-secondary">
+              The Injil was the holy book revealed to Jesus (Isa), according to the Quran. Although some lay Muslims believe the Injil refers to the entire New Testament, most scholars and Muslims believe that it refers not to the New Testament but to an original Gospel, given to Jesus as the word of Allah. Therefore, according to Muslim belief, the Gospel was the message that Jesus, being divinely inspired, preached to the Children of Israel. The current canonical Gospels, in the belief of Muslim scholars, are not divinely revealed but rather are documents of the life of Jesus, as written by various contemporaries, disciples, and companions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- main end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+    <!-- js link -->
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+  </body>
+</html>

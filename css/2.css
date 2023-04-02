@@ -1,0 +1,41 @@
+
+/*bar start*/
+.c-bar{
+	background: #7430FA;
+}
+
+.brand-text{
+	font-size: 23px;
+	letter-spacing: 1px;
+	margin-left: 1%;
+
+}
+
+.l-edit a{
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding: 0 6px;
+}
+.l-edit a:hover{
+	background: white;
+	color: #7430FA !important;
+	border-radius: 5px;
+
+}
+
+.l-edit a:nth-child(2){
+	background: white;
+	color: #7430FA !important;
+	border-radius: 5px;
+
+}
+
+/*.c-width{
+	width: 50%;
+	
+}
+*/
+
+/*bar end*/ 
